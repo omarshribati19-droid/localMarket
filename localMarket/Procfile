@@ -1,1 +1,1 @@
-web: localMarket.wsgi
+web: gunicorn localMarket.wsgi 
